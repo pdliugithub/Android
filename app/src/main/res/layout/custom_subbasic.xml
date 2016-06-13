@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="24px"
+        android:layout_margin="10dp"
+        >
+
+        <ImageView
+            android:id="@+id/id_basic_type_img"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/nor_3x_pay"
+            />
+
+        <TextView
+            android:id="@+id/id_basic_type_subTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/id_basic_type_img"
+            android:text="注意：主要施工区域、危险部位未按规定悬挂安全标志"
+            android:textColor="#fc5513"
+            android:singleLine="true"
+            android:layout_centerVertical="true"
+            />
+
+    </RelativeLayout>
+
+    <!--要显示的childView -->
+
+    <LinearLayout
+        android:id="@+id/id_basic_type_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:layout_gravity="center"
+        >
+
+        <Button
+            android:id="@+id/id_basic_btn_tongguo"
+            android:layout_width="98px"
+            android:layout_height="52px"
+            android:background="#37b861"
+            android:text="通过"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="10px"
+            />
+
+        <Button
+            android:id="@+id/id_basic_btn_yinhuan"
+            android:layout_width="98px"
+            android:layout_height="52px"
+            android:background="#37b861"
+            android:text="隐患"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="10px"
+            />
+
+        <!--未涉 -->
+        <Button
+            android:id="@+id/id_basic_btn_weishe"
+            android:layout_width="98px"
+            android:layout_height="52px"
+            android:background="#37b861"
+            android:text="未涉"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="10px"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="52px"
+            android:layout_marginLeft="56px"
+            android:textColor="#37b861"
+            android:textSize="28px"
+            android:text="创建\n问题"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="52px"
+            android:layout_marginLeft="56px"
+            android:textColor="#37b861"
+            android:textSize="28px"
+            android:text="关联\n问题"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="52px"
+            android:layout_marginLeft="56px"
+            android:textColor="#37b861"
+            android:textSize="28px"
+            android:text="查看\n问题"
+            />
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+    <!--<include-->
+        <!--layout="@layout/basic_sub"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--/>-->
+
+    <!--<RelativeLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="24px"-->
+        <!--android:layout_margin="10dp"-->
+        <!--&gt;-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/id_basic_img2"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:src="@drawable/nor_3x_pay_lv"-->
+            <!--/>-->
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_toRightOf="@+id/id_basic_img2"-->
+            <!--android:text="注意：未绘制现场安全标志布置图"-->
+            <!--android:singleLine="true"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--/>-->
+
+    <!--</RelativeLayout>-->
+
+    <!--<RelativeLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="24px"-->
+        <!--android:layout_margin="10dp"-->
+        <!--&gt;-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/id_basic_img3"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:src="@drawable/nor_3x_pay_lan"-->
+            <!--/>-->
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_toRightOf="@+id/id_basic_img3"-->
+            <!--android:text="注意：重要内容公告"-->
+            <!--android:singleLine="true"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--/>-->
+
+    <!--</RelativeLayout>-->
+
+</LinearLayout>

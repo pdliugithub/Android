@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00ff00"
+        android:padding="10dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/down3x_nav_return"
+            android:layout_alignParentLeft="true"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="新建检查"
+            android:textSize="30sp"
+            android:textColor="#ffffff"
+            android:layout_centerInParent="true"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/down3x_nav_yun"
+            android:layout_alignParentRight="true"
+            />
+
+    </RelativeLayout>
+
+    <!-- 上部分-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="检查名称"
+                android:layout_alignParentLeft="true"
+                android:textColor="#323232"
+                android:textSize="28px"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="上级单位检查计划"
+                android:layout_alignParentRight="true"
+                android:textColor="#323232"
+                android:textSize="28px"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="检查区域"
+                android:layout_alignParentLeft="true"
+                android:textColor="#323232"
+                android:textSize="28px"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3栋、4栋"
+                android:layout_alignParentRight="true"
+                android:textColor="#323232"
+                android:textSize="28px"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="分类"
+                android:layout_alignParentLeft="true"
+                android:textColor="#323232"
+                android:textSize="28px"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="安全管理"
+                android:layout_alignParentRight="true"
+                android:textColor="#323232"
+                android:textSize="28px"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="备注"
+                android:layout_alignParentLeft="true"
+                android:textColor="#323232"
+                android:textSize="28px"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="安全管理"
+                android:layout_alignParentRight="true"
+                android:textColor="#323232"
+                android:textSize="28px"
+                />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:textSize="24px"
+            android:textColor="#b4b4b4"
+            android:text="共2个检查项、5个子项"
+            android:gravity="center_vertical"
+            />
+
+    </LinearLayout>
+
+
+     <com.lpd.android.fuheview.CustomBasicView
+         android:layout_width="match_parent"
+         android:layout_height="150dp"
+         android:background="@color/colorAccent"
+         >
+
+         <com.lpd.android.fuheview.CustomSubBasicView
+             layout="@layout/custom_subbasic"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             />
+
+         </com.lpd.android.fuheview.CustomBasicView>
+
+    <!-- 基础一-->
+    <!--<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="基础一"
+                android:textColor="#323232"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                />
+
+            <TextView
+                android:id="@+id/id_basic_down1"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/down3x_nav_xia"
+                android:textColor="#323232"
+                android:layout_alignParentRight="true"
+                />
+
+        </RelativeLayout>
+
+        <include
+            android:id="@+id/id_basic_include1"
+            layout="@layout/custom_subbasic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+
+    </LinearLayout>-->
+
+
+    <!-- 基础二-->
+   <!-- <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="基础二"
+                android:textColor="#323232"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                />
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/down3x_nav_xia"
+                android:textColor="#323232"
+                android:layout_alignParentRight="true"
+                />
+
+        </RelativeLayout>
+
+
+        <include
+            layout="@layout/custom_subbasic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+
+
+    </LinearLayout>-->
+
+    <!-- 基础三-->
+    <!--<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="基础三"
+                android:textColor="#323232"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                />
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/down3x_nav_xia"
+                android:textColor="#323232"
+                android:layout_alignParentRight="true"
+                />
+
+        </RelativeLayout>
+
+
+        <include
+            layout="@layout/custom_subbasic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+    </LinearLayout>-->
+
+
+</LinearLayout>
+
+</ScrollView>

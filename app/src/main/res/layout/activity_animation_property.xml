@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.lpd.android.animation.AnimationProperty">
+
+    <ImageView
+        android:id="@+id/animation_property_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/tween_img"
+        />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/animation_property_img"
+        android:padding="5dp"
+        >
+
+
+        <ImageView
+            android:id="@+id/animation_property_img_f"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/anim_property_f"
+            />
+
+        <ImageView
+            android:id="@+id/animation_property_img_e"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/anim_property_e"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/anim_property_d"
+            android:id="@+id/animation_property_img_d"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/anim_property_c"
+            android:id="@+id/animation_property_img_c"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/anim_property_b"
+            android:id="@+id/animation_property_img_b"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/anim_property_a"
+            android:id="@+id/animation_property_img_a"
+            android:paddingBottom="5dp"
+            />
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/animation_property_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/start"
+        />
+
+</RelativeLayout>

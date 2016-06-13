@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.lpd.android.sqlite.MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:padding="@dimen/activity_horizontal_margin"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="用户名:"
+            />
+        <EditText
+            android:id="@+id/et_userName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="用户名:"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:padding="@dimen/activity_horizontal_margin"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="手机号:"
+            />
+        <EditText
+            android:id="@+id/et_userPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="手机号:"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/activity_horizontal_margin"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="密码:"
+            />
+
+        <EditText
+            android:id="@+id/et_userPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="密码:"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/btn_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="保存"
+            android:background="@drawable/btn_round_bg"
+            />
+        <Button
+            android:id="@+id/btn_query"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="查询"
+            android:background="@drawable/btn_round_bg"
+            />
+
+        <Button
+            android:id="@+id/btn_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="删除"
+            android:background="@drawable/btn_round_bg"
+            />
+        <Button
+            android:id="@+id/btn_update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="更改"
+            android:background="@drawable/btn_round_bg"
+            />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/tv_infoShow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="info"
+        />
+
+</LinearLayout>

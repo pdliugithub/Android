@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Android.iml" filepath="$PROJECT_DIR$/Android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Camera/Camera.iml" filepath="$PROJECT_DIR$/Camera/Camera.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyLeafLoading/MyLeafLoading.iml" filepath="$PROJECT_DIR$/MyLeafLoading/MyLeafLoading.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MySensor/MySensor.iml" filepath="$PROJECT_DIR$/MySensor/MySensor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MySqlite/MySqlite.iml" filepath="$PROJECT_DIR$/MySqlite/MySqlite.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyView/MyView.iml" filepath="$PROJECT_DIR$/MyView/MyView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyViewGroup/MyViewGroup.iml" filepath="$PROJECT_DIR$/MyViewGroup/MyViewGroup.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SurfaceView/SurfaceView.iml" filepath="$PROJECT_DIR$/SurfaceView/SurfaceView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Vedio/Vedio.iml" filepath="$PROJECT_DIR$/Vedio/Vedio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ViewFlipper/ViewFlipper.iml" filepath="$PROJECT_DIR$/ViewFlipper/ViewFlipper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ViewPagerAnim/ViewPagerAnim.iml" filepath="$PROJECT_DIR$/ViewPagerAnim/ViewPagerAnim.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ViewTouchLayout/ViewTouchLayout.iml" filepath="$PROJECT_DIR$/ViewTouchLayout/ViewTouchLayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+    </modules>
+  </component>
+</project>

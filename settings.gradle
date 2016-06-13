@@ -1,0 +1,1 @@
+include ':app', ':ViewFlipper', ':ViewTouchLayout', ':MyView', ':MyViewGroup', ':Camera', ':Vedio', ':MySqlite', ':ViewPagerAnim', ':SurfaceView', ':MySensor', ':MyLeafLoading'

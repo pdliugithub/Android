@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Android</string>
+    <string name="animation">Animation（动画）</string>
+    <string name="animation_drawable">Drawable Animation（帧动画）</string>
+    <string name="animation_tween">Tween Animation（补间动画）</string>
+    <string name="animation_Property">Property Animation（属性动画）</string>
+    <string name="animation_CircularReveal">CircularReveal（圆形缩放动画效果Android5.0引入的动画）</string>
+    <string name="start">Start(开始)</string>
+</resources>

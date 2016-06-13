@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:layout_gravity="center"
+        >
+
+        <Button
+            android:layout_width="98px"
+            android:layout_height="52px"
+            android:background="#37b861"
+            android:text="通过"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="10px"
+            />
+
+        <Button
+            android:layout_width="98px"
+            android:layout_height="52px"
+            android:background="#37b861"
+            android:text="隐患"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="10px"
+            />
+
+        <Button
+            android:layout_width="98px"
+            android:layout_height="52px"
+            android:background="#37b861"
+            android:text="未涉"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="10px"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="52px"
+            android:layout_marginLeft="56px"
+            android:textColor="#37b861"
+            android:textSize="28px"
+            android:text="创建\n问题"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="52px"
+            android:layout_marginLeft="56px"
+            android:textColor="#37b861"
+            android:textSize="28px"
+            android:text="关联\n问题"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="52px"
+            android:layout_marginLeft="56px"
+            android:textColor="#37b861"
+            android:textSize="28px"
+            android:text="查看\n问题"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

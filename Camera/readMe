@@ -1,0 +1,14 @@
+
+
+
+    调用系统相机：
+        拍照后回传图片的缩略图
+        自定义拍照存储的路径，拍照成功后，读取路径下的照片
+
+    自定义相机：Camera+SurfaceView+SurfaceHolder+SurfaceHolder.Callback
+        自定义相机样式实现功能强大的拍照功能
+
+
+
+
+
