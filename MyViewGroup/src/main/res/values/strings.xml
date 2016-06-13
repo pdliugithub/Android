@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Android</string>
+
+
+    <string-array name="array">
+
+        <item>你好我是item1</item>
+        <item>你好我是item1</item>
+        <item>你好我是item1</item>
+        <item>你好我是item1</item>
+        <item>你好我是item1</item>
+        <item>你好我是item1</item>
+        <item>你好我是item1</item>
+        <item>你好我是item1</item>
+
+    </string-array>
+
+</resources>
